@@ -3,16 +3,10 @@
     "type": "JSON",
     "content": [
       {
-        "id": "3671844",
-        "Flight": "WS2315",
-        "Time": "16:55",
-        "HotelName": "Grand Riviera Princess All Suites & Spa Resort"
-      },
-      {
-        "id": "3681007",
-        "Flight": "WS2207",
-        "Time": "14:20",
-        "HotelName": "Grand Riviera Princess All Suites & Spa Resort"
+        "id": "69-7546917",
+        "Flight": "Y43482",
+        "Time": "16:40",
+        "HotelName": "Grand Riviera Princess"
       }
     ],
     "source": {
