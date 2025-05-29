@@ -1,14 +1,7 @@
 {
   "templates": {
     "type": "JSON",
-    "content": [
-      {
-        "id": "TCOCH-25253950",
-        "Flight": "LA2457",
-        "Time": "01:20",
-        "HotelName": "Grand Riviera Princess"
-      }
-    ],
+    "content": [],
     "source": {
       "data_source": "Google Sheets (Private)",
       "update_frequency": "Automated"
