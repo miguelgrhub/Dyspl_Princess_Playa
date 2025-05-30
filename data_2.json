@@ -3,34 +3,10 @@
     "type": "JSON",
     "content": [
       {
-        "id": "143475563",
-        "Flight": "WS2773",
-        "Time": "10:20",
-        "HotelName": "Family Club at Grand Riviera Princess"
-      },
-      {
-        "id": "4250362",
-        "Flight": "VB354",
-        "Time": "16:25",
-        "HotelName": "Family Club at Grand Riviera Princess"
-      },
-      {
-        "id": "143766183",
+        "id": "144128103",
         "Flight": "WS2963",
         "Time": "11:35",
-        "HotelName": "Family Club at Grand Riviera Princess"
-      },
-      {
-        "id": "143476273",
-        "Flight": "WS2773",
-        "Time": "10:20",
-        "HotelName": "Family Club at Grand Riviera Princess"
-      },
-      {
-        "id": "4221347",
-        "Flight": "VB342",
-        "Time": "15:55",
-        "HotelName": "Family Club at Grand Riviera Princess"
+        "HotelName": "Grand Riviera Princess"
       }
     ],
     "source": {
