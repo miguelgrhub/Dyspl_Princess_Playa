@@ -90,7 +90,7 @@ function renderTable() {
         <td>${item.id}</td>
         <td>${item.Flight}</td>
         <td>${item.HotelName}</td>
-        <td>${item.Time}</td>
+        <td>${item.PickupTime}</td>
       </tr>
     `;
   });
@@ -157,15 +157,18 @@ searchButton.addEventListener('click', () => {
   const query = searchInput.value.trim().toLowerCase();
   if (!query) return goToHome();
 
-  const record = todaysRecords.find(r => r.id.toLowerCase() === query)
-              || tomorrowsRecords.find(r => r.id.toLowerCase() === query);
+  // Usamos filter() para traer todas las reservas cuyo id coincida con agency_ref buscado
+  const matchesToday    = todaysRecords.filter(r => r.id.toLowerCase() === query);
+  const matchesTomorrow = tomorrowsRecords.filter(r => r.id.toLowerCase() === query);
+  const foundRecords    = [...matchesToday, ...matchesTomorrow];
 
   inactivityTimer = setTimeout(goToHome, 20000);
 
-  if (record) {
-    searchResult.innerHTML = `
+  if (foundRecords.length > 0) {
+    // Construimos la tabla mostrando todas las reservas encontradas
+    let resultHTML = `
       <div class="bktableqrresultados">
-        <p class="titulo_result"><strong>We got you, here is your transfer</strong></p>
+        <p class="titulo_result"><strong>We got you, here are your transfer details</strong></p>
         <table class="transfer-result-table">
           <thead>
             <tr>
@@ -176,17 +179,25 @@ searchButton.addEventListener('click', () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>${record.id}</td>
-              <td>${record.Flight}</td>
-              <td>${record.HotelName}</td>
-              <td>${record.Time}</td>
-            </tr>
+    `;
+    foundRecords.forEach(record => {
+      resultHTML += `
+        <tr>
+          <td>${record.id}</td>
+          <td>${record.Flight}</td>
+          <td>${record.HotelName}</td>
+          <td>${record.PickupTime}</td>
+        </tr>
+      `;
+    });
+    resultHTML += `
           </tbody>
         </table>
       </div>
     `;
+    searchResult.innerHTML = resultHTML;
   } else {
+    // Caso sin coincidencias
     searchResult.innerHTML = `
       <div class="bktableqr">
         <p class="error-text">
