@@ -3,9 +3,24 @@
     "type": "JSON",
     "content": [
       {
-        "id": "143794113",
-        "Flight": "WS2965",
-        "Time": "13:50",
+        "id": "69-7548259",
+        "Flight": "UA1047",
+        "PickupDate": null,
+        "PickupTime": null,
+        "HotelName": "Grand Riviera Princess"
+      },
+      {
+        "id": "143884803",
+        "Flight": "WS2963",
+        "PickupDate": null,
+        "PickupTime": null,
+        "HotelName": "Grand Riviera Princess"
+      },
+      {
+        "id": "143884693",
+        "Flight": "WS2963",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Grand Riviera Princess"
       }
     ],
