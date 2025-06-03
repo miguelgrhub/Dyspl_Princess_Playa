@@ -5,22 +5,22 @@
       {
         "id": "69-7548259",
         "Flight": "UA1047",
-        "PickupDate": "2025-06-03",
-        "PickupTime": "17:55",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Grand Riviera Princess"
       },
       {
         "id": "143884803",
         "Flight": "WS2963",
-        "PickupDate": "2025-06-03",
-        "PickupTime": "11:35",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Grand Riviera Princess"
       },
       {
         "id": "143884693",
         "Flight": "WS2963",
-        "PickupDate": "2025-06-03",
-        "PickupTime": "11:35",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Grand Riviera Princess"
       }
     ],
