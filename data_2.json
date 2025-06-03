@@ -5,8 +5,8 @@
       {
         "id": "143832363",
         "Flight": "WS2963",
-        "PickupDate": "2025-06-04",
-        "PickupTime": "11:35",
+        "PickupDate": null,
+        "PickupTime": null,
         "HotelName": "Grand Riviera Princess"
       }
     ],
