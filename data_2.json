@@ -1,15 +1,7 @@
 {
   "templates": {
     "type": "JSON",
-    "content": [
-      {
-        "id": "143832363",
-        "Flight": "WS2963",
-        "PickupDate": "2025-06-04",
-        "PickupTime": "07:35",
-        "HotelName": "Grand Riviera Princess"
-      }
-    ],
+    "content": [],
     "source": {
       "data_source": "Google Sheets (Private)",
       "update_frequency": "Automated"
