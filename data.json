@@ -1,7 +1,40 @@
 {
   "templates": {
     "type": "JSON",
-    "content": [],
+    "content": [
+      {
+        "id": "4245421",
+        "Flight": "AF0651",
+        "PickupDate": "2025-06-05",
+        "PickupTime": "15:25",
+        "HotelName": "Family Club at Grand Riviera Princess",
+        "HotelNumber": 3422
+      },
+      {
+        "id": "143789553",
+        "Flight": "WS2207",
+        "PickupDate": "2025-06-05",
+        "PickupTime": "09:40",
+        "HotelName": "Family Club at Grand Riviera Princess",
+        "HotelNumber": 3422
+      },
+      {
+        "id": "4245397",
+        "Flight": "AA2665",
+        "PickupDate": "2025-06-05",
+        "PickupTime": "10:15",
+        "HotelName": "Family Club at Grand Riviera Princess",
+        "HotelNumber": 3422
+      },
+      {
+        "id": "75KZ6L",
+        "Flight": "DL1878",
+        "PickupDate": "2025-06-05",
+        "PickupTime": "10:35",
+        "HotelName": "Grand Riviera Princess All Suites & Spa Resort",
+        "HotelNumber": 16364
+      }
+    ],
     "source": {
       "data_source": "Google Sheets (Private)",
       "update_frequency": "Automated"
