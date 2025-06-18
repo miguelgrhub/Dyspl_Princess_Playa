@@ -9,30 +9,6 @@
         "PickupTime": "15:35",
         "HotelName": "Grand Riviera Princess All Suites & Spa Resort",
         "HotelNumber": 16364
-      },
-      {
-        "id": "144487782",
-        "Flight": "WS2009",
-        "PickupDate": "2025-06-18",
-        "PickupTime": "15:40",
-        "HotelName": "Platinum Yucatán Princess ",
-        "HotelNumber": 3614
-      },
-      {
-        "id": "144410672",
-        "Flight": "WS2773",
-        "PickupDate": "2025-06-18",
-        "PickupTime": "06:00",
-        "HotelName": "Platinum Yucatán Princess ",
-        "HotelNumber": 3614
-      },
-      {
-        "id": "144287763",
-        "Flight": "WS2963",
-        "PickupDate": "2025-06-18",
-        "PickupTime": "07:35",
-        "HotelName": "Platinum Yucatán Princess ",
-        "HotelNumber": 3614
       }
     ],
     "source": {
