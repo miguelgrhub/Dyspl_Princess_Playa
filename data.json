@@ -1,7 +1,48 @@
 {
   "templates": {
     "type": "JSON",
-    "content": [],
+    "content": [
+      {
+        "id": "145007983",
+        "Flight": "WS2963",
+        "PickupDate": "2025-09-02",
+        "PickupTime": "11:35",
+        "HotelName": "Family Club at Grand Riviera Princess",
+        "HotelNumber": 3422
+      },
+      {
+        "id": "TCOCH-25779852",
+        "Flight": "LA2457",
+        "PickupDate": "2025-09-01",
+        "PickupTime": "21:25",
+        "HotelName": "Platinum Yucatán Princess ",
+        "HotelNumber": 3614
+      },
+      {
+        "id": "145054593",
+        "Flight": "WS2963",
+        "PickupDate": "2025-09-02",
+        "PickupTime": "11:35",
+        "HotelName": "Grand Sunset Princess",
+        "HotelNumber": 3470
+      },
+      {
+        "id": "145498903",
+        "Flight": "WS2963",
+        "PickupDate": "2025-09-02",
+        "PickupTime": "11:35",
+        "HotelName": "Grand Sunset Princess",
+        "HotelNumber": 3470
+      },
+      {
+        "id": "145054513",
+        "Flight": "WS2963",
+        "PickupDate": "2025-09-02",
+        "PickupTime": "11:35",
+        "HotelName": "Grand Sunset Princess",
+        "HotelNumber": 3470
+      }
+    ],
     "source": {
       "data_source": "Google Sheets (Private)",
       "update_frequency": "Automated"
