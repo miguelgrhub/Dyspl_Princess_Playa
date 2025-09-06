@@ -43,14 +43,6 @@
         "HotelNumber": 3614
       },
       {
-        "id": "145116133",
-        "Flight": "WS2315",
-        "PickupDate": "2025-09-06",
-        "PickupTime": "12:40",
-        "HotelName": "Platinum Yucatán Princess ",
-        "HotelNumber": 3614
-      },
-      {
         "id": "144617453",
         "Flight": "WS2963",
         "PickupDate": "2025-09-06",
@@ -83,14 +75,6 @@
         "HotelNumber": 3470
       },
       {
-        "id": "145190811",
-        "Flight": "WS2963",
-        "PickupDate": "2025-09-06",
-        "PickupTime": "07:35",
-        "HotelName": "Grand Sunset Princess",
-        "HotelNumber": 3470
-      },
-      {
         "id": "145255393",
         "Flight": "WS2773",
         "PickupDate": "2025-09-06",
@@ -103,14 +87,6 @@
         "Flight": "WS2773",
         "PickupDate": "2025-09-06",
         "PickupTime": "10:10",
-        "HotelName": "Grand Sunset Princess",
-        "HotelNumber": 3470
-      },
-      {
-        "id": "145163892",
-        "Flight": "WS2963",
-        "PickupDate": "2025-09-06",
-        "PickupTime": "07:35",
         "HotelName": "Grand Sunset Princess",
         "HotelNumber": 3470
       }
